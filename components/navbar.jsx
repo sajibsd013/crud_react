@@ -76,6 +76,12 @@ const Navbar = () => {
                 >
                   Todos
                 </NavLink>
+                <NavLink
+                  to="/students"
+                  className="text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Students
+                </NavLink>
               </div>
             </div>
           </div>
