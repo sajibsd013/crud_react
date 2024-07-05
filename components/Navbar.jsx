@@ -52,11 +52,11 @@ const Navbar = () => {
               )}
             </button>
           </div>
-          <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex-shrink-0 text-white text-xl font-bold">
+          <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between">
+            <NavLink  to='/' className="flex-shrink-0 text-white text-xl font-bold ">
               Logo
-            </div>
-            <div className="hidden sm:block sm:ml-6">
+            </NavLink>
+            <div className="hidden sm:block sm:ml-6 ">
               <div className="flex space-x-4">
                 <NavLink
                   to="/"
@@ -101,15 +101,21 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             to="/tasks"
-            className="text-white px-3 py-2 rounded-md text-sm font-medium"
+            className="text-white block  px-3 py-2 rounded-md text-sm font-medium"
           >
             Taks
           </NavLink>
           <NavLink
             to="/todos"
-            className="text-white px-3 py-2 rounded-md text-sm font-medium"
+            className="text-white block px-3 py-2 rounded-md text-sm font-medium"
           >
             Todos
+          </NavLink>
+          <NavLink
+              to="/students"
+              className="text-white block px-3 py-2 rounded-md text-sm font-medium"
+          >
+            Students
           </NavLink>
         </div>
       </div>

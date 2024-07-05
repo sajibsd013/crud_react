@@ -1,8 +1,8 @@
 function HomePage() {
   return (
-    <>
-      <h1>This is home page!</h1>
-    </>
+    <div className="container">
+      <h1 className='text-3xl text-center my-5 font-semibold'>Hello world!</h1>
+    </div>
   );
 }
 

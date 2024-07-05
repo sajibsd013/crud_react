@@ -1,10 +1,10 @@
-import Navbar from "./navbar";
+import Navbar from "./Navbar.jsx";
 
 const Header = () => {
   return (
-    <div>
+    <header>
       <Navbar />
-    </div>
+    </header>
   );
 };
 
